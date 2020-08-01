@@ -1,0 +1,100 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 27 16:26:37 2020
+| Host         : DESKTOP-4GI3556 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s15ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of clk_wiz_1 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 27 16:26:35 2020
+| Host         : DESKTOP-4GI3556 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s15ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of clk_wiz_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 27 16:26:32 2020
+| Host         : DESKTOP-4GI3556 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s15ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Word_Rom'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Word_Rom (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 27 16:26:31 2020
+| Host         : DESKTOP-4GI3556 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s15ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'RAM_Line'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of RAM_Line (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 27 16:26:29 2020
+| Host         : DESKTOP-4GI3556 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s15ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'AXIS_Data_RAM'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of AXIS_Data_RAM (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 2)
+

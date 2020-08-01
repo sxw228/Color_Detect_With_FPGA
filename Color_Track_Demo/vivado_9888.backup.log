@@ -1,0 +1,1022 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jul 27 16:22:53 2020
+# Process ID: 9888
+# Current directory: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17888 E:\Xilinx\projects\Chapter17\Color_Track_Demo\Color_Track_Demo\Color_Track_Demo.xpr
+# Log file: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/vivado.log
+# Journal file: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/IP_Core'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'Word_Rom' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'Word_Rom' (customized with software release 2018.2) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_0' (customized with software release 2018.2) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_1' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_1' (customized with software release 2018.2) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'AXIS_Data_RAM' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'AXIS_Data_RAM' (customized with software release 2018.2) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'RAM_Line' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'RAM_Line' (customized with software release 2018.2) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 704.859 ; gain = 83.031
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/Word_Rom/Word_Rom.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' in run clk_wiz_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci' in run clk_wiz_1_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/AXIS_Data_RAM/AXIS_Data_RAM.xci' in run AXIS_Data_RAM_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/RAM_Line/RAM_Line.xci' in run RAM_Line_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/Word_Rom/Word_Rom.xci' in run Word_Rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci
+
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rgb2dvi_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'csi2_d_phy_rx_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'csi_to_axis_0'...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/AXIS_Data_RAM/AXIS_Data_RAM.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/RAM_Line/RAM_Line.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/Word_Rom/Word_Rom.xci
+
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' in run clk_wiz_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci' in run clk_wiz_1_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/AXIS_Data_RAM/AXIS_Data_RAM.xci' in run AXIS_Data_RAM_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/RAM_Line/RAM_Line.xci' in run RAM_Line_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/Word_Rom/Word_Rom.xci' in run Word_Rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Mon Jul 27 16:23:24 2020] Launched clk_wiz_0_synth_1, clk_wiz_1_synth_1, rgb2dvi_0_synth_1, csi2_d_phy_rx_0_synth_1, csi_to_axis_0_synth_1, AXIS_Data_RAM_synth_1, RAM_Line_synth_1, Word_Rom_synth_1, synth_1...
+Run output will be captured here:
+clk_wiz_0_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/clk_wiz_0_synth_1/runme.log
+clk_wiz_1_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/clk_wiz_1_synth_1/runme.log
+rgb2dvi_0_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/rgb2dvi_0_synth_1/runme.log
+csi2_d_phy_rx_0_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/csi2_d_phy_rx_0_synth_1/runme.log
+csi_to_axis_0_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/csi_to_axis_0_synth_1/runme.log
+AXIS_Data_RAM_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/AXIS_Data_RAM_synth_1/runme.log
+RAM_Line_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/RAM_Line_synth_1/runme.log
+Word_Rom_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/Word_Rom_synth_1/runme.log
+synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 16:23:30 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:28 ; elapsed = 00:00:10 . Memory (MB): peak = 806.383 ; gain = 42.840
+report_ip_status -name ip_status 
+upgrade_ip -srcset AXIS_Data_RAM [get_ips  {AXIS_Data_RAM RAM_Line Word_Rom clk_wiz_0 clk_wiz_1}] -log ip_upgrade.log
+Upgrading 'AXIS_Data_RAM'
+INFO: [Project 1-386] Moving file 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/AXIS_Data_RAM/AXIS_Data_RAM.xci' from fileset 'AXIS_Data_RAM' to fileset 'sources_1'.
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+INFO: [IP_Flow 19-3422] Upgraded AXIS_Data_RAM (Block Memory Generator 8.4) from revision 1 to revision 2
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'AXIS_Data_RAM'...
+Upgrading 'RAM_Line'
+INFO: [Project 1-386] Moving file 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/RAM_Line/RAM_Line.xci' from fileset 'RAM_Line' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded RAM_Line (Block Memory Generator 8.4) from revision 1 to revision 2
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'RAM_Line'...
+Upgrading 'Word_Rom'
+INFO: [Project 1-386] Moving file 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/Word_Rom/Word_Rom.xci' from fileset 'Word_Rom' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded Word_Rom (Block Memory Generator 8.4) from revision 1 to revision 2
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Word_Rom'...
+Upgrading 'clk_wiz_0'
+INFO: [Project 1-386] Moving file 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded clk_wiz_0 (Clocking Wizard 6.0) from revision 1 to revision 2
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+Upgrading 'clk_wiz_1'
+INFO: [Project 1-386] Moving file 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci' from fileset 'clk_wiz_1' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded clk_wiz_1 (Clocking Wizard 6.0) from revision 1 to revision 2
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_1'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1011.035 ; gain = 173.406
+export_ip_user_files -of_objects [get_ips {AXIS_Data_RAM RAM_Line Word_Rom clk_wiz_0 clk_wiz_1}] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Word_Rom'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'RAM_Line'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'AXIS_Data_RAM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+[Mon Jul 27 16:27:40 2020] Launched clk_wiz_0_synth_1, RAM_Line_synth_1, clk_wiz_1_synth_1, Word_Rom_synth_1, AXIS_Data_RAM_synth_1, synth_1...
+Run output will be captured here:
+clk_wiz_0_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/clk_wiz_0_synth_1/runme.log
+RAM_Line_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/RAM_Line_synth_1/runme.log
+clk_wiz_1_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/clk_wiz_1_synth_1/runme.log
+Word_Rom_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/Word_Rom_synth_1/runme.log
+AXIS_Data_RAM_synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/AXIS_Data_RAM_synth_1/runme.log
+synth_1: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 16:27:41 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtools 27-2312] Device xc7s15_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'refresh_hw_target' failed due to earlier errors.
+refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'refresh_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter11/REFERENCE/HDMI_Demo/HDMI_Demo/HDMI_Stripe_Demo/HDMI_Stripe_Demo.runs/impl_1/HDMI_Stripe_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+close [ open E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Color_Extract.v w ]
+add_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Color_Extract.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/RGB_To_HSV.v] -no_script -reset -force -quiet
+remove_files  E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/RGB_To_HSV.v
+export_ip_user_files -of_objects  [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Color_Detect.v] -no_script -reset -force -quiet
+remove_files  E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Color_Detect.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:09:18 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 19:09:18 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Mon Jul 27 19:10:10 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:11:14 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:21:01 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 19:21:01 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Mon Jul 27 19:30:13 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Mon Jul 27 19:31:53 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:36:53 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:41:30 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 19:41:30 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210251A08870.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+set_property PROGRAM.FILE {E:\Xilinx\projects\summer\Camera_Demo\Camera_Demo\Camera_Demo.runs\impl_1\Camera_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:47:19 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 19:47:19 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:48:08 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 19:48:08 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:53:29 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 19:53:29 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 19:58:23 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 19:58:23 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Mon Jul 27 20:05:12 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Mon Jul 27 20:07:58 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 20:08:56 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 20:11:33 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 20:11:33 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 20:19:59 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 20:19:59 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 20:28:39 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 20:28:39 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 20:44:38 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 20:44:38 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210251A08870.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 20:50:56 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 20:50:56 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 20:58:19 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 20:58:19 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210251A08870.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 21:14:18 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 21:14:18 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 21:17:07 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 21:17:07 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jul 27 21:21:56 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Mon Jul 27 21:21:56 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210251A08870.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210251A08870.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 123 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'MIPI_Trans_Driver/camera_clock/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+INFO: [Constraints 18-4398] Generator version for shapeDB does not match. shapeDB will be regenerated.
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.266 . Memory (MB): peak = 3001.605 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.266 . Memory (MB): peak = 3001.605 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3001.605 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:31 . Memory (MB): peak = 3110.547 ; gain = 661.723
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+add_files -norecurse E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Driver_SK6805.v
+update_compile_order -fileset sources_1
+add_files -norecurse E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Driver_SK6805.v
+WARNING: [filemgmt 56-12] File 'E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Driver_SK6805.v' cannot be added to the project because it already exists in the project, skipping this file
+set_property -dict [list CONFIG.CLKOUT3_USED {true} CONFIG.CLK_OUT3_PORT {clk_10m} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {10.000} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKOUT2_DIVIDE {100} CONFIG.NUM_OUT_CLKS {3} CONFIG.CLKOUT3_JITTER {209.588} CONFIG.CLKOUT3_PHASE_ERROR {98.575}] [get_ips clk_wiz_0]
+generate_target all [get_files  E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 12 clk_wiz_0_synth_1
+[Thu Jul 30 18:36:01 2020] Launched clk_wiz_0_synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/clk_wiz_0_synth_1/runme.log
+export_simulation -of_objects [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.ip_user_files/sim_scripts -ip_user_files_dir E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.ip_user_files -ipstatic_source_dir E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.cache/compile_simlib/modelsim} {questa=E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.cache/compile_simlib/questa} {riviera=E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.cache/compile_simlib/riviera} {activehdl=E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jul 30 18:42:44 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Thu Jul 30 18:42:44 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 12
+[Thu Jul 30 18:48:00 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Thu Jul 30 18:48:00 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jul 30 18:50:51 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jul 30 18:58:38 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Thu Jul 30 18:58:38 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jul 30 19:09:13 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Thu Jul 30 19:09:13 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+close [ open E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/max3.v w ]
+add_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/max3.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Jul 30 19:39:43 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Jul 30 19:40:33 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Jul 30 19:41:37 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Thu Jul 30 19:42:41 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jul 30 19:44:06 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+export_ip_user_files -of_objects  [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/max3.v] -no_script -reset -force -quiet
+remove_files  E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/max3.v
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Jul 30 19:58:45 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jul 30 19:59:43 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jul 30 20:06:03 2020] Launched synth_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/synth_1/runme.log
+[Thu Jul 30 20:06:03 2020] Launched impl_1...
+Run output will be captured here: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+INFO: [Labtools 27-1434] Device xc7s15 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+INFO: [Labtools 27-1435] Device xc7s15 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210251A08870
+reset_project
+reset_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 4313.895 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  1 07:31:44 2020...

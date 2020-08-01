@@ -1,0 +1,465 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jul 27 16:22:53 2020
+# Process ID: 9888
+# Current directory: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17888 E:\Xilinx\projects\Chapter17\Color_Track_Demo\Color_Track_Demo\Color_Track_Demo.xpr
+# Log file: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/vivado.log
+# Journal file: E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+report_ip_status -name ip_status 
+upgrade_ip -srcset AXIS_Data_RAM [get_ips  {AXIS_Data_RAM RAM_Line Word_Rom clk_wiz_0 clk_wiz_1}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {AXIS_Data_RAM RAM_Line Word_Rom clk_wiz_0 clk_wiz_1}] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter11/REFERENCE/HDMI_Demo/HDMI_Demo/HDMI_Stripe_Demo/HDMI_Stripe_Demo.runs/impl_1/HDMI_Stripe_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+close [ open E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Color_Extract.v w ]
+add_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Color_Extract.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/RGB_To_HSV.v] -no_script -reset -force -quiet
+remove_files  E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/RGB_To_HSV.v
+export_ip_user_files -of_objects  [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Color_Detect.v] -no_script -reset -force -quiet
+remove_files  E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Color_Detect.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:\Xilinx\projects\summer\Camera_Demo\Camera_Demo\Camera_Demo.runs\impl_1\Camera_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/summer/Camera_Demo/Camera_Demo/Camera_Demo.runs/impl_1/Camera_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+add_files -norecurse E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Driver_SK6805.v
+update_compile_order -fileset sources_1
+add_files -norecurse E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/Driver_SK6805.v
+set_property -dict [list CONFIG.CLKOUT3_USED {true} CONFIG.CLK_OUT3_PORT {clk_10m} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {10.000} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKOUT2_DIVIDE {100} CONFIG.NUM_OUT_CLKS {3} CONFIG.CLKOUT3_JITTER {209.588} CONFIG.CLKOUT3_PHASE_ERROR {98.575}] [get_ips clk_wiz_0]
+generate_target all [get_files  E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 12 clk_wiz_0_synth_1
+export_simulation -of_objects [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.ip_user_files/sim_scripts -ip_user_files_dir E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.ip_user_files -ipstatic_source_dir E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.cache/compile_simlib/modelsim} {questa=E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.cache/compile_simlib/questa} {riviera=E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.cache/compile_simlib/riviera} {activehdl=E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+close [ open E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/max3.v w ]
+add_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/max3.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+export_ip_user_files -of_objects  [get_files E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/max3.v] -no_script -reset -force -quiet
+remove_files  E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.srcs/sources_1/new/max3.v
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {E:/Xilinx/projects/Chapter17/Color_Track_Demo/Color_Track_Demo/Color_Track_Demo.runs/impl_1/Color_Track_Demo.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+reset_project
